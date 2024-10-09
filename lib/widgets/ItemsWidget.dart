@@ -44,22 +44,21 @@ class ItemsWidget extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: 10), // Thêm khoảng cách giữa Row và hình ảnh
+                SizedBox(height: 10),
                 Center(
                   child: InkWell(
                     onTap: () {},
                     child: Container(
                       margin: EdgeInsets.all(10),
                       child: Image.asset(
-                        "images/1.jpg",
+                        "images/$i.jpg",
                         height: 120,
                         width: 120,
                       ),
                     ),
                   ),
                 ),
-                SizedBox(
-                    height: 10), // Thêm khoảng cách giữa hình ảnh và văn bản
+                SizedBox(height: 10),
                 Text(
                   "Product Title",
                   style: TextStyle(
@@ -68,7 +67,7 @@ class ItemsWidget extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                SizedBox(height: 5), // Khoảng cách giữa tiêu đề và mô tả
+                SizedBox(height: 5),
                 Text(
                   "Write description of product",
                   style: TextStyle(
