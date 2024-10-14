@@ -7,7 +7,7 @@ class CartItemSamples extends StatelessWidget {
     // TODO: implement build
     return Column(
       children: [
-        for (int i = 0; i < 4; i++)
+        for (int i = 1; i < 4; i++)
           Container(
             height: 110,
             margin: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
