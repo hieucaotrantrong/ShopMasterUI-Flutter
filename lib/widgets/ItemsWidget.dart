@@ -47,7 +47,9 @@ class ItemsWidget extends StatelessWidget {
                 SizedBox(height: 10),
                 Center(
                   child: InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.pushNamed(context, "itemPage");
+                    },
                     child: Container(
                       margin: EdgeInsets.all(10),
                       child: Image.asset(

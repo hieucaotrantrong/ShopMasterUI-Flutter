@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myprojectflutter/pages/CartPage.dart';
 import 'package:myprojectflutter/pages/Homepage.dart';
+import 'package:myprojectflutter/pages/ItemPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         "/": (context) => HomePage(),
-        "cartPage": (context) => CartPage()
+        "cartPage": (context) => CartPage(),
+        "itemPage": (context) => ItemPage(),
       },
     );
   }

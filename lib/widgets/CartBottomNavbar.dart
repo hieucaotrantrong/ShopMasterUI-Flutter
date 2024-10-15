@@ -34,6 +34,7 @@ class CartBottomNavbar extends StatelessWidget {
             Container(
               alignment: Alignment.center,
               height: 50,
+              width: double.infinity,
               decoration: BoxDecoration(
                 color: Color(0xFF4C53A5),
                 borderRadius: BorderRadius.circular(20),
@@ -41,7 +42,7 @@ class CartBottomNavbar extends StatelessWidget {
               child: Text(
                 "Check out",
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 18,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
